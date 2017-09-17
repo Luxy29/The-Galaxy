@@ -10,7 +10,7 @@ let app = express();
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Body parsr middleware
+// Body parser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
