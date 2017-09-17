@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <% include partials/links %>
+    <title>Document</title>
+</head>
+<body>
+
+        <header class="navbar-fixed">
+                <nav class="row deep-purple darken-3">
+                        <div class="nav-wrapper">
+                                <a href="#" class="brand-logo">&nbsp; The Galaxy™</a>
+                                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                  <li><a href="/">Home</a></li>
+                                </ul>
+                              </div>
+                </nav>
+              </header>
+
+              <main class="valign-wrapper" style="background-color: #5F25B1">
+                    <span class="container black-text text-lighten-1 ">
+                
+                        <h1 class="title grey-text text-lighten-1">Bots</h1>
+                        <p class="flow-text grey-text text-lighten-1">Click on a bot for more information about it.</p>
+
+
+                        <div id="mee6" class="modal">
+                                <div class="modal-content">
+                                  <h4>Supernova<span class="discrim">#5768</span></h4>
+                                  <p>Supernova is a bot created by Luxy and is half owned by Badplye.<br>
+                                    This bot features a multitude of different commands that people can use. From just fun commmand that change chat like s!ktg which sends either <b><i>KISS THE GUNS</i></b> or <b><i>KEKO THE GEKO</i> <br>
+                                    it's all just for other players to enjoy! :)</b>
+                                    <h5>Common Commands:</h5>
+                                    - s!ktg<br>
+                                    - s!adminset<br>
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                <a href="" class="waves-effect waves-dark btn-flat">invite</a>
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">Close</a>
+                                </div>
+                              </div>
+                              <div id="pie" class="modal">
+                                <div class="modal-content">
+                                  <h4>Project Shield<span class="discrim">#8601</span></h4>
+                                  <p>Project Shield is a moderation bot with uses that go above and beyond it's orignal intent to serve The Galaxy!<br>
+                                    <h5>Common Commands:</h5>
+                                    - (NOT YET ADDED)<br>
+                                    - (NOT YET ADDED)<br>
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="waves-effect waves-dark btn-flat">invite</a>
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">Close</a>
+                                </div>
+                              </div>
+                              <div id="connect4" class="modal">
+                                <div class="modal-content">
+                                  <h4>MusicNova<span class="discrim">#9867</span></h4>
+                                  <p>MusicNova is a custom music bot that the owner of the server got for us.<br>
+                                    It should be complete soon.<br><br>
+                                    <h5>Common Commands:</h5>
+                                    - (NOT YET ADDED) <br>
+                                    - (NOT YET ADDED)<br>
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://discordapp.com/oauth2/authorize?client_id=357657416269299714&scope=bot&permissions=2134207671" class="waves-effect waves-dark btn-flat">invite</a>
+                                  <a href="#!" class="modal-action modal-close waves-effect waves-dark btn-flat">Close</a>
+                                </div>
+                              </div>
+                              <!-- Bot containers -->
+                              <div class="section hat">
+                                <div class="row container">
+                                  <ul class="collection" style="color: black;">
+                                    <li class="collection-item avatar clickable modal-trigger" href="#mee6">
+                                      <img src="https://cdn.discordapp.com/avatars/353428734541299713/01a01f7c4195162a382a9595b9a1aa6d.jpg" alt="" class="circle">
+                                      <span class="title"><b>Supernova</b></span>
+                                      <p>Fun Bot<br>
+                                         s!help
+                                      </p>
+                                    </li>
+                                    <li class="collection-item avatar clickable modal-trigger" href="#connect4">
+                                      <img src="https://cdn.discordapp.com/avatars/357656082627428353/fb4a073a82a0da48bfd5f2e194b25148.jpg" alt="" class="circle">
+                                      <span class="title"><b>MusicNova</b></span>
+                                      <p>Music Bot<br>
+                                         !%help
+                                      </p>
+                                    </li>
+                                              <li class="collection-item avatar clickable modal-trigger" href="#pie">
+                                      <img src="https://cdn.discordapp.com/avatars/358381507787620353/91f501f713ca8d21b1486ee9969e7ae7.jpg" alt="" class="circle">
+                                      <span class="title"><b>Project Shield</b></span>
+                                      <p>Custom Bot<br>
+                                         !%help, @Project Shield help
+                                      </p>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>                              
+                    </span>
+                  </main>
+
+              <footer class="page-footer deep-purple darken-3">
+                    <div class="footer-copyright deep-purple darken-4">
+                      <div class="container">
+                        <time datetime="{{ site.time | date: '%Y' }}">&copy; 2016 Luxy</time>
+                      </div>
+                    </div>
+                  </footer>
+    
+    <% include partials/jslinks %>
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+          });
+    </script>
+</body>
+</html>

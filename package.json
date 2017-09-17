@@ -1,0 +1,17 @@
+{
+  "name": "thegalaxy",
+  "version": "1.0.0",
+  "description": "Website for The Galaxy",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryen",
+  "license": "ISC"
+}
