@@ -25,6 +25,6 @@ app.get('/bots', (req, res) => {
     res.render('bots');
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log('Server started on port 8888');
 });
